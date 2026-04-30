@@ -1,0 +1,39 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# Raw source vault (immutable, never publish)
+.raw/
+
+# Attachment staging
+_attachments/visual-prompts/staging/
+
+# API key patterns (dead or live -- never publish literals)
+# Any file matching OpenRouter / Anthropic key naming conventions
+*.key
+*.secret
+.secrets
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local overrides
+*.local
+
+# Security: exclude any file whose content includes the FLAG-001 literal
+# (these are scrub-target files, not for public push)
+# Note: git does not support content-based exclusion natively; this comment
+# documents the policy. Enforce with pre-commit hook or gitleaks scan.
+# Filename-based guard: files explicitly named as FLAG-001 carriers
+*FLAG-001*
