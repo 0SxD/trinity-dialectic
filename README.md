@@ -1,3 +1,7 @@
+> **Status: Evaluation window (private under 0SxD).** This repository is staged
+> for evaluation review. License terms in LICENSE govern; contents may move,
+> change, or be withdrawn. See LICENSE before any use.
+
 # Trinity Dialectic
 
 **Logos and Pathos fight. Ethos arbitrates. The fight itself is the productive mechanism.**

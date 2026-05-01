@@ -2,6 +2,17 @@
 .env
 .env.*
 *.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+.claude/
+*.log
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.ckpt
 secrets.json
 credentials.json
 
